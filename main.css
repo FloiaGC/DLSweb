@@ -1,3 +1,9 @@
+:root {
+    --background: url(https://foruda.gitee.com/images/1674204023075183802/61f1bc82_7469389.png);
+    --background2: url(https://foruda.gitee.com/images/1674204108526594250/48feb37a_7469389.png);
+    --yinghua: url(https://foruda.gitee.com/images/1674204370718196481/f3b5e1ab_7469389.png);
+}
+
 html {
     position: relative;
     overflow: hidden !important;
@@ -26,7 +32,7 @@ body {
     width: 100%;
     height: 100%;
     min-height: 100vh;
-    background-image: url("img/background.png");
+    background-image: var(--background);
     position: absolute;
     z-index: -5;
     
@@ -40,7 +46,7 @@ body {
     width: 100%;
     height: 100%;
     min-height: 100vh;
-    background-image: url("img/background2.png");
+    background-image: var(--background2);
     position: absolute;
     z-index: -4;
 }
@@ -49,7 +55,7 @@ body {
     width: 100%;
     height: 100%;
     min-height: 100vh;
-    background-image: url("img/yinghua.png");
+    background-image: var(--yinghua);
     position: absolute;
     z-index: -1;
 }
