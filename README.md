@@ -1,4 +1,6 @@
-# DLSweb
+# 此版本已停止更新，我们正在开发新的中，仓库地址：https://github.com/Snowxkh/DlSweb-v2
+
+## DLSweb
 一个比较好看的DLS官网介绍页+wiki
 ***
 ### 前言
